@@ -1,0 +1,15 @@
+@use '../abstracts'as *;
+
+body {
+    background-color: pink;
+}
+
+.container {
+    & h1 {
+        color: green;
+    }
+
+    &__text {
+        color: blue;
+    }
+}

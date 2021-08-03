@@ -1,0 +1,26 @@
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Raleway', sans-serif;
+// font-family: 'Satisfy', cursive;
+
+
+@mixin font-raleway {
+    font-family: ('Open Sans', sans-serif);
+    font-weight: normal;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+    text-align: center;
+}
+
+@mixin font-satisfy {
+    font-family: ('Satisfy', 'cursive');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 34px;
+    color: #000000;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+}

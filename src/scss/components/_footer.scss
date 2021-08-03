@@ -1,0 +1,72 @@
+@use '../abstracts'as *;
+
+.footer {
+    background-color: $grey;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__text {
+        padding: 5em 0 2em 0;
+        // padding-top: 4em;
+        // padding-left: 4em;
+        // padding-right: 4em;
+
+        @media screen and (max-width: 320px) {
+            padding: 2em;
+            margin-top: 30px;
+        }
+    }
+
+    &__logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+
+    &__heading {
+        @include font-satisfy;
+        color: $beige;
+        font-size: 40px;
+        padding-top: 20px;
+    }
+
+    &__line {
+        border-bottom: 1px solid #f4f2ef;
+        box-align: center;
+        width: 80px;
+    }
+
+    a:link,
+    a:visited {
+        text-decoration: none;
+        color: $beige;
+    }
+
+    a:hover,
+    a:active {
+        text-decoration: none;
+    }
+
+    &__socials {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__socials-button {
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        text-decoration: none;
+        line-height: 60px;
+        vertical-align: middle;
+        border: solid 1px $beige;
+        border-radius: 50%;
+        padding: 12px;
+        margin: 20px;
+    }
+}

@@ -1,12 +1,228 @@
-body {
-  background-color: pink;
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-.container h1 {
-  color: green;
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
-.container__text {
-  color: blue;
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 125px;
+  left: 0;
+  z-index: 10;
+  padding: 8px 16px;
+  align-items: center;
+}
+.navbar ul {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  padding-right: 25px;
+}
+.navbar li {
+  padding: 0px 15px;
+}
+.navbar__logo {
+  display: flex;
+  justify-content: flex-start;
+  height: 100px;
+  width: 100px;
+  margin: 0px 40px;
+}
+@media only screen and (max-width: 450px) {
+  .navbar__logo {
+    justify-content: flex-start;
+  }
+}
+.navbar__button {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 35px;
+  color: #000000;
+  text-align: center;
+  background: none;
+  border: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar-toggler {
+    display: none;
+  }
+}
+
+.hero-image {
+  min-width: 100%;
+}
+
+.about {
+  background-color: #E3D9CA;
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about__text {
+  max-width: 80%;
+  padding: 3em;
+  margin: 60px 0px;
+}
+@media screen and (max-width: 560px) {
+  .about__text {
+    max-width: 85%;
+    padding: 1em;
+  }
+}
+.about__heading {
+  font-family: "Satisfy", "cursive";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 34px;
+  color: #000000;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  font-size: 60px;
+  margin-bottom: 60px;
+}
+.about__paraHeading {
+  font-family: "Satisfy", "cursive";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 34px;
+  color: #000000;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  font-size: 38px;
+}
+.about__para {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 35px;
+  color: #000000;
+  text-align: center;
+}
+.about__retreats {
+  color: #95A792;
+}
+
+.offerings {
+  background-color: #ffffff;
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.offerings__text {
+  max-width: 80%;
+  padding: 3em;
+  margin: 60px 0px;
+}
+@media screen and (max-width: 560px) {
+  .offerings__text {
+    max-width: 85%;
+    padding: 1em;
+  }
+}
+.offerings__heading {
+  font-family: "Satisfy", "cursive";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 34px;
+  color: #000000;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  font-size: 60px;
+  margin-bottom: 60px;
+}
+
+.footer {
+  background-color: #403F48;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer__text {
+  padding: 5em 0 2em 0;
+}
+@media screen and (max-width: 320px) {
+  .footer__text {
+    padding: 2em;
+    margin-top: 30px;
+  }
+}
+.footer__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.footer__heading {
+  font-family: "Satisfy", "cursive";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 34px;
+  color: #000000;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #E3D9CA;
+  font-size: 40px;
+  padding-top: 20px;
+}
+.footer__line {
+  border-bottom: 1px solid #f4f2ef;
+  box-align: center;
+  width: 80px;
+}
+.footer a:link,
+.footer a:visited {
+  text-decoration: none;
+  color: #E3D9CA;
+}
+.footer a:hover,
+.footer a:active {
+  text-decoration: none;
+}
+.footer__socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer__socials-button {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 60px;
+  vertical-align: middle;
+  border: solid 1px #E3D9CA;
+  border-radius: 50%;
+  padding: 12px;
+  margin: 20px;
 }
 
 /*# sourceMappingURL=/main.77bb5cfd.css.map */

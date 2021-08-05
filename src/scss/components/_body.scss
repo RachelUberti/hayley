@@ -14,3 +14,15 @@ html {
 *:after {
     box-sizing: inherit;
 }
+
+h2 {
+    @media only screen and (max-width: 450px) {
+        font-size: 25px;
+    }
+}
+
+p {
+    @media only screen and (max-width: 450px) {
+        line-height: normal;
+    }
+}

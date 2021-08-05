@@ -11,7 +11,7 @@
     &__text {
         max-width: 80%;
         padding: 3em;
-        margin: 60px 0px;
+        margin: 50px 0px;
 
         @media screen and (max-width: 560px) {
             max-width: 85%;
@@ -23,15 +23,37 @@
         @include font-satisfy;
         font-size: 60px;
         margin-bottom: 60px;
+
+        @media only screen and (max-width: 450px) {
+            font-size: 40px;
+            margin-bottom: 40px;
+
+        }
     }
 
     &__paraHeading {
         @include font-satisfy;
         font-size: 38px;
+
+        @media only screen and (max-width: 450px) {
+            font-size: 25px;
+        }
+    }
+
+    &__paraHeading::after {
+        @media only screen and (max-width: 450px) {
+            content: "\a";
+            white-space: pre;
+        }
     }
 
     &__para {
         @include font-raleway;
+
+        @media only screen and (max-width: 450px) {
+            font-size: 15px;
+            line-height: normal;
+        }
     }
 
     &__retreats {

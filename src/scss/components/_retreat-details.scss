@@ -1,0 +1,112 @@
+@use '../abstracts'as *;
+
+.retreat {
+    background-color: $white;
+    @include font-raleway;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+
+    @media only screen and (max-width: 450px) {
+        font-size: 14px;
+    }
+
+    &__image {
+        width: 650px;
+        height: auto;
+        padding: 30px 0px;
+
+        @media only screen and (max-width: 450px) {
+            width: 350px;
+            padding-bottom: 10px;
+
+        }
+    }
+
+    &__heading {
+        line-height: normal;
+        font-size: 22px;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding-top: 10px;
+
+        @media only screen and (max-width: 450px) {
+            font-size: 16px;
+        }
+    }
+
+    &__list {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+
+        @media only screen and (max-width: 450px) {
+            line-height: normal;
+        }
+    }
+}
+
+
+.retreatForm {
+    display: flex;
+    padding-left: 145px;
+
+    @media only screen and (max-width: 450px) {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    &__heading {
+        @include font-satisfy;
+        color: $olive;
+        font-size: 26px;
+        text-align: right;
+        padding-bottom: 10px;
+
+        @media only screen and (max-width: 450px) {
+            text-align: center;
+
+        }
+    }
+
+    &__column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__label {
+        float: right;
+        font-size: 20px;
+
+        @media only screen and (max-width: 450px) {
+            font-size: 16px;
+
+        }
+    }
+
+    &__input {
+        width: 20em;
+        border-radius: 8px;
+    }
+
+    &__button {
+        @include font-satisfy;
+        font-size: 26px;
+        color: $white;
+        background-color: $olive;
+        padding: 12px 25px;
+        border: none;
+        border-radius: 8px;
+        float: right;
+
+        @media only screen and (max-width: 450px) {
+            font-size: 20px;
+            padding: 8px 15px;
+            float: none;
+
+        }
+    }
+}

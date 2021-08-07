@@ -27,7 +27,6 @@
         @media only screen and (max-width: 450px) {
             font-size: 40px;
             margin-bottom: 40px;
-
         }
     }
 
@@ -49,6 +48,7 @@
 
     &__para {
         @include font-raleway;
+        font-size: 25px;
 
         @media only screen and (max-width: 450px) {
             font-size: 15px;
@@ -58,5 +58,7 @@
 
     &__retreats {
         color: $olive;
+        border: none;
+        background: none;
     }
 }

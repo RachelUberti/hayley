@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en-AU" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Hayley Uberti</title>
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+  <!-- SCSS -->
+  <link rel="stylesheet" href="scss/main.scss" />
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Raleway:ital,wght@0,200;0,300;0,400;0,700;1,200;1,300;1,400;1,700&family=Satisfy&display=swap"
+    rel="stylesheet" />
+
+  <!-- Font awesome -->
+  <script src="https://use.fontawesome.com/8eb409c3d6.js"></script>
+  <script src="https://kit.fontawesome.com/94a21f29c7.js" crossorigin="anonymous"></script>
+
+  <!-- Favicon link -->
+  <link rel="icon" type="image/png" href="./images/favicon/favicon-32x32.png" />
+</head>
+
+<body>
+  <!-- Nav bar  -->
+  <header>
+    <nav class="navbar navbar-expand-md">
+      <a class="navbar__logo" href="/"><img src="images/logo.png"
+          alt="The logo; a triangle with a small circle to the left" /></a>
+
+      <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarToggler"
+        aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarToggler">
+        <ul class="navbar-nav mr-auto mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"><button class="navbar__button retreatsNav">Home</button></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#offeringsSection"><button class="navbar__button retreatsNav">Yoga</button></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#offeringsSection"><button class="navbar__button retreatsNav">Dance</button></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact"><button class="navbar__button retreatsNav">Connect</button></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero image -->
+    <div>
+      <picture>
+        <source media="(max-width:400px)" srcset="images/hero-image-retreat-cropped.JPG" />
+        <source srcset="images/hero-image-retreat.JPG" />
+        <img class="hero-image" src="images/hero-image-retreat.jpg"
+          alt="An infinity pool in front of the sea and mountains at sunset, with a person doing a yoga pose at the edge of the pool" />
+      </picture>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container-fluid px-0">
+      <div class="row mx-0">
+        <div class="about">
+          <div class="about__text">
+            <h1 class="about__heading">Retreats</h1>
+            <p class="about__para">
+              <span class="about__paraHeading">My good friend Nina and I</span>
+              run special bespoke and intimate retreat for those wanting to
+              restore and explore both their inner landscapes and the
+              beautifully rugged and high vibrational land in Australia.
+            </p>
+            <p class="about__para">
+              We invite you to reconnect and revitalise your body, mind and
+              spirit. Take this opportunity to press pause and let us look
+              after you!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Offerings -->
+  <section id="reatreatSection">
+    <div class="retreat">
+      <a href="/"><img class="retreat__image" src="images/retreat-poster.png"
+          alt="Strawberry yoghurt with blackberries on top and person in a yoga pose" /></a>
+      <h2 class="retreat__heading">Dates</h2>
+      <p class="retreat__para">
+        Monday 16th August 2pm to Friday 20th August 10am
+      </p>
+      <h2 class="retreat__heading">Location</h2>
+      <p class="retreat__para">Magnetic Island, Townsville, Queensland</p>
+      <h2 class="retreat__heading">Weather</h2>
+      <p class="retreat__para">
+        Average August daytime temperature 22 - 26°C. Lowest 15°C nightly
+      </p>
+      <h2 class="retreat__heading">We offer</h2>
+      <ul class="retreat__list">
+        <li>4 nights holiday home accommodation by the sea</li>
+        <li>Daily morning yoga</li>
+        <li>Daily restorative evening practice</li>
+        <li>Welcome pack to thank you for joining us</li>
+        <li>
+          All mats and props for the practice (bring your own if you like
+          though)
+        </li>
+        <li>Hikes to explore Magnetic Island x3</li>
+        <li>Creative Wellness Workshop</li>
+        <li>Nourishing plant-based meals</li>
+        <li>30-minute Reiki treatment</li>
+        <li>Community connection</li>
+        <li>Time to rest and/or explore</li>
+        <li>Ferry transport</li>
+        <li>Ferry terminal pick up and drop off</li>
+      </ul>
+      <br />
+      <div class="retreatForm">
+
+        <form class="retreatForm__column" action="mailto:Hayleydanceandyoga@gmail.com" method="post"
+          enctype="text/plain">
+          <h3 class="retreatForm__heading">Want more information?</h3>
+          <p>
+            <label class="retreatForm__label" for="firstName">First Name:
+              <input class="retreatForm__input" type="text" name="firstName" /></label><br />
+          </p>
+          <p>
+            <label class="retreatForm__label" for="LastName">Last Name:
+              <input class="retreatForm__input" type="text" name="lastName" /></label><br />
+          </p>
+          <p>
+            <label class="retreatForm__label" for="mail"> E-mail:
+              <input class="retreatForm__input" type="text" name="mail" /></label><br />
+          </p>
+          <p>
+            <input class="retreatForm__button" type="submit" value="Request a brochure" />
+          </p>
+        </form>
+      </div>
+      <div class="retreat__poster-jumping">
+        <a href="/"><img class="retreat__image" src="images/retreat-poster-jumping.png"
+            alt="Two people in bathers holding hands, mid-air jumping into the water" /></a>
+      </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <div class="container-fluid px-0">
+      <div class="row mx-0">
+        <div class="footer">
+          <div class="footer__text">
+            <a class="footer__logo" href="/"><img src="images/logo2.png"
+                alt="Hayley's logo; a triangle with a small circle to the left" /></a>
+            <h1 class="footer__heading">Contact</h1>
+            <hr class="footer__line" />
+            <div class="footer__socials">
+              <a href="https://www.facebook.com/profile.php?id=100012157428974" target="_blank"
+                class="footer__socials-button fa fa-facebook fa-2x"></a>
+              <a href="https://www.instagram.com/hayleydanceandyoga/?hl=en" target="_blank"
+                class="footer__socials-button fa fa-instagram fa-2x"></a>
+              <a href="mailto:Hayleydanceandyoga@gmail.com" target="_blank"
+                class="footer__socials-button fa fa-envelope fa-2x"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Jquery, Popper.js & JavaScript scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+
+  <!-- JavaScript scripts -->
+  <script src="javaScript/javaScript.js" charset="utf-8"></script>
+</body>
+
+</html>

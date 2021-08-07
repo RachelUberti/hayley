@@ -2,6 +2,7 @@ body,
 html {
   margin: 0px;
   padding: 0px;
+  margin-top: -125px;
   height: 100%;
   width: 100%;
   box-sizing: border-box;
@@ -37,28 +38,33 @@ html {
 }
 @media only screen and (max-width: 768px) {
   .navbar {
-    padding: 0px 5px;
+    padding: 0px;
+    background: rgba(149, 167, 146, 0.7);
+    height: 100px;
   }
 }
 .navbar ul {
   display: flex;
   width: 100%;
   justify-content: flex-end;
-  padding-right: 25px;
+  padding-right: 10px;
 }
 @media only screen and (max-width: 768px) {
   .navbar ul {
-    align-items: flex-end;
-    padding-right: 0px;
+    margin: 0px;
+    align-items: stretch;
+    text-align: center;
+    padding: 0px;
+    background: rgba(149, 167, 146, 0.7);
   }
 }
 .navbar li {
-  padding: 0px 15px;
+  padding: 0px 10px;
 }
 @media only screen and (max-width: 768px) {
   .navbar li {
-    background: #95A792;
-    opacity: 0.6;
+    padding: 0px;
+    width: 100%;
   }
 }
 .navbar__logo {
@@ -84,11 +90,24 @@ html {
   background: none;
   border: none;
 }
+@media only screen and (max-width: 450px) {
+  .navbar__button {
+    font-size: 25px;
+    line-height: 10px;
+  }
+}
 .navbar__button:focus {
   outline: none;
 }
 .navbar__button:hover {
   color: #596C68;
+}
+
+.retreatsNav {
+  color: #403F48;
+}
+.retreatsNav:hover {
+  color: #95A792;
 }
 
 .navbar-toggler {
@@ -102,6 +121,16 @@ html {
 
 .navbar-toggler:visited {
   border: none;
+}
+
+.scrolled-down {
+  transform: translateY(-100%);
+  transition: all 0.3s ease-in-out;
+}
+
+.scrolled-up {
+  transform: translateY(0);
+  transition: all 0.3s ease-in-out;
 }
 
 .hero-image {
@@ -177,6 +206,7 @@ html {
   line-height: 35px;
   color: #403F48;
   text-align: center;
+  font-size: 25px;
 }
 @media only screen and (max-width: 450px) {
   .about__para {
@@ -186,6 +216,8 @@ html {
 }
 .about__retreats {
   color: #95A792;
+  border: none;
+  background: none;
 }
 
 .offerings {
@@ -211,7 +243,7 @@ html {
   }
 }
 .offerings__image {
-  width: 300px;
+  width: 350px;
   border-radius: 50%;
   padding-bottom: 15px;
 }
@@ -228,7 +260,7 @@ html {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 768px) {
   .offerings__grid {
     grid-template-columns: 1fr;
     margin: 50px 50px 50px;
@@ -346,6 +378,134 @@ html {
   border-radius: 50%;
   padding: 12px;
   margin: 20px;
+}
+
+.retreat {
+  background-color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 35px;
+  color: #403F48;
+  text-align: center;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+@media only screen and (max-width: 450px) {
+  .retreat {
+    font-size: 14px;
+  }
+}
+.retreat__image {
+  width: 650px;
+  height: auto;
+  padding: 30px 0px;
+}
+@media only screen and (max-width: 450px) {
+  .retreat__image {
+    width: 350px;
+    padding-bottom: 10px;
+  }
+}
+.retreat__heading {
+  line-height: normal;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 10px;
+}
+@media only screen and (max-width: 450px) {
+  .retreat__heading {
+    font-size: 16px;
+  }
+}
+.retreat__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+@media only screen and (max-width: 450px) {
+  .retreat__list {
+    line-height: normal;
+  }
+}
+
+.retreatForm {
+  display: flex;
+  padding-left: 145px;
+}
+@media only screen and (max-width: 450px) {
+  .retreatForm {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+.retreatForm__heading {
+  font-family: "Satisfy", "cursive";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 34px;
+  color: #403F48;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #95A792;
+  font-size: 26px;
+  text-align: right;
+  padding-bottom: 10px;
+}
+@media only screen and (max-width: 450px) {
+  .retreatForm__heading {
+    text-align: center;
+  }
+}
+.retreatForm__column {
+  display: flex;
+  flex-direction: column;
+}
+.retreatForm__label {
+  float: right;
+  font-size: 20px;
+}
+@media only screen and (max-width: 450px) {
+  .retreatForm__label {
+    font-size: 16px;
+  }
+}
+.retreatForm__input {
+  width: 20em;
+  border-radius: 8px;
+}
+.retreatForm__button {
+  font-family: "Satisfy", "cursive";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 34px;
+  color: #403F48;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  font-size: 26px;
+  color: #ffffff;
+  background-color: #95A792;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  float: right;
+}
+@media only screen and (max-width: 450px) {
+  .retreatForm__button {
+    font-size: 20px;
+    padding: 8px 15px;
+    float: none;
+  }
 }
 
 /*# sourceMappingURL=/main.77bb5cfd.css.map */

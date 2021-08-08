@@ -1,8 +1,9 @@
 @use '../abstracts'as *;
 
 .retreat {
-    background-color: $white;
+    background-color: $green;
     @include font-raleway;
+    color: $white;
     font-size: 22px;
     display: flex;
     flex-direction: column;
@@ -53,6 +54,7 @@
 .retreatForm {
     display: flex;
     padding-left: 145px;
+    color: $olive;
 
     @media only screen and (max-width: 450px) {
         padding-left: 5px;
@@ -62,7 +64,7 @@
     &__heading {
         @include font-satisfy;
         color: $olive;
-        font-size: 26px;
+        font-size: 28px;
         text-align: right;
         padding-bottom: 10px;
 
@@ -90,6 +92,7 @@
     &__input {
         width: 20em;
         border-radius: 8px;
+        border: 1px solid $grey;
     }
 
     &__button {

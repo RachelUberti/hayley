@@ -2,7 +2,6 @@ body,
 html {
   margin: 0px;
   padding: 0px;
-  margin-top: -125px;
   height: 100%;
   width: 100%;
   box-sizing: border-box;
@@ -381,7 +380,7 @@ html {
 }
 
 .retreat {
-  background-color: #ffffff;
+  background-color: #596C68;
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
   font-style: normal;
@@ -389,6 +388,7 @@ html {
   line-height: 35px;
   color: #403F48;
   text-align: center;
+  color: #ffffff;
   font-size: 22px;
   display: flex;
   flex-direction: column;
@@ -438,6 +438,7 @@ html {
 .retreatForm {
   display: flex;
   padding-left: 145px;
+  color: #95A792;
 }
 @media only screen and (max-width: 450px) {
   .retreatForm {
@@ -456,7 +457,7 @@ html {
   text-align: center;
   letter-spacing: 0.05em;
   color: #95A792;
-  font-size: 26px;
+  font-size: 28px;
   text-align: right;
   padding-bottom: 10px;
 }
@@ -481,6 +482,7 @@ html {
 .retreatForm__input {
   width: 20em;
   border-radius: 8px;
+  border: 1px solid #403F48;
 }
 .retreatForm__button {
   font-family: "Satisfy", "cursive";

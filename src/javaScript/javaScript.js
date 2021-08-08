@@ -1,9 +1,10 @@
+// Navbar scroll hide/show function
+
 document.addEventListener("DOMContentLoaded", function () {
   el_autohide = document.querySelector(".autohide");
 
-  // add padding-top to bady (if necessary)
   navbar_height = document.querySelector(".navbar").offsetHeight;
-  document.body.style.paddingTop = navbar_height + "px";
+  document.body.style.paddingTop = navbar_height;
 
   if (el_autohide) {
     var last_scroll_top = 0;
@@ -18,8 +19,5 @@ document.addEventListener("DOMContentLoaded", function () {
       }
       last_scroll_top = scroll_top;
     });
-    // window.addEventListener
   }
-  // if
 });
-// DOMContentLoaded  end

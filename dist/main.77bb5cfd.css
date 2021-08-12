@@ -138,7 +138,7 @@ html {
 
 .about {
   background-color: #E3D9CA;
-  max-width: 100%;
+  width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
@@ -508,6 +508,211 @@ html {
     padding: 8px 15px;
     float: none;
   }
+}
+
+.dance {
+  background-color: #95A792;
+  padding: 3em;
+}
+@media screen and (max-width: 560px) {
+  .dance {
+    padding: 0px;
+  }
+}
+.dance__text {
+  margin: auto;
+  width: 80%;
+  padding: 3em;
+  align-items: center;
+  text-align: center;
+}
+@media screen and (max-width: 560px) {
+  .dance__text {
+    width: 90%;
+    padding: 1em;
+  }
+}
+.dance__heading {
+  font-family: "Satisfy", "cursive";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 34px;
+  color: #403F48;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  font-size: 60px;
+  margin-bottom: 60px;
+}
+@media only screen and (max-width: 450px) {
+  .dance__heading {
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+  }
+}
+.dance__paraOfferings {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 35px;
+  color: #403F48;
+  text-align: center;
+  margin: 30px 0px;
+}
+@media only screen and (max-width: 450px) {
+  .dance__paraOfferings {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+}
+.dance__paraHeading {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 35px;
+  color: #403F48;
+  text-align: center;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 450px) {
+  .dance__paraHeading {
+    font-size: 20px;
+  }
+}
+.dance__para {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 35px;
+  color: #403F48;
+  text-align: center;
+  font-size: 25px;
+}
+@media only screen and (max-width: 450px) {
+  .dance__para {
+    font-size: 15px;
+    line-height: normal;
+  }
+}
+
+.danceStyles {
+  background-color: #E3D9CA;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.danceStyles__text {
+  background-color: #95A792;
+  max-width: 70%;
+  padding: 3em;
+  margin: 50px 0px;
+}
+@media screen and (max-width: 560px) {
+  .danceStyles__text {
+    max-width: 85%;
+    padding: 1em;
+  }
+}
+.danceStyles__paraHeading {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 35px;
+  color: #403F48;
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: left;
+}
+@media only screen and (max-width: 450px) {
+  .danceStyles__paraHeading {
+    font-size: 18px;
+  }
+}
+.danceStyles__para {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 35px;
+  color: #403F48;
+  text-align: center;
+  font-size: 18px;
+  text-align: left;
+}
+@media only screen and (max-width: 450px) {
+  .danceStyles__para {
+    font-size: 13px;
+    line-height: normal;
+  }
+}
+
+.socials {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 3em;
+  margin: 50px 0px;
+}
+@media screen and (max-width: 560px) {
+  .socials {
+    padding: 1em;
+  }
+}
+.socials__heading {
+  font-family: "Satisfy", "cursive";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 34px;
+  color: #403F48;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  font-size: 60px;
+  margin-bottom: 25px;
+}
+@media only screen and (max-width: 450px) {
+  .socials__heading {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+}
+.socials__para {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 35px;
+  color: #403F48;
+  text-align: center;
+  font-size: 25px;
+}
+@media only screen and (max-width: 450px) {
+  .socials__para {
+    font-size: 15px;
+    line-height: normal;
+  }
+}
+.socials__para:hover {
+  text-decoration: none;
+  color: #596C68;
+}
+.socials__socials {
+  display: flex;
+}
+.socials__image {
+  width: 200px;
+  height: 200px;
+  margin: 15px;
 }
 
 /*# sourceMappingURL=/main.77bb5cfd.css.map */

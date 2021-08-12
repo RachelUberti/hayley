@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en-AU" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Hayley Uberti</title>
+
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <!-- SCSS -->
+    <link rel="stylesheet" href="scss/main.scss" />
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Raleway:ital,wght@0,200;0,300;0,400;0,700;1,200;1,300;1,400;1,700&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font awesome -->
+    <script src="https://use.fontawesome.com/8eb409c3d6.js"></script>
+    <script
+      src="https://kit.fontawesome.com/94a21f29c7.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Favicon link -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="./images/favicon/favicon-32x32.png"
+    />
+  </head>
+
+  <body>
+    <!-- Nav bar  -->
+    <header>
+      <nav class="autohide navbar navbar-expand-md">
+        <a class="navbar__logo" href="/"
+          ><img
+            src="images/logo.png"
+            alt="The logo; a triangle with a small circle to the left"
+        /></a>
+
+        <button
+          class="navbar-toggler navbar-light"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarToggler"
+          aria-controls="navbarToggler"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarToggler">
+          <ul class="navbar-nav mr-auto mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"
+                ><button class="navbar__button retreatsNav">Home</button></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="retreats.html"
+                ><button class="navbar__button retreatsNav">Retreats</button></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="yoga.html"
+                ><button class="navbar__button retreatsNav">Yoga</button></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#socialMedia"
+                ><button class="navbar__button retreatsNav">Connect</button></a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Hero image -->
+      <div>
+        <picture>
+          <source
+            media="(max-width:400px)"
+            srcset="images/dance/hero-image-dance.jpg"
+          />
+          <source srcset="images//dance/hero-image-dance.JPG" />
+          <img
+            class="hero-image"
+            src="images//dance/hero-image-dance.jpg"
+            alt="An infinity pool in front of the sea and mountains at sunset, with a person doing a yoga pose at the edge of the pool"
+          />
+        </picture>
+      </div>
+    </header>
+
+    <!-- About -->
+    <section id="dance">
+      <div class="container-fluid px-0">
+        <div class="row mx-0">
+          <div class="dance">
+            <div class="dance__text">
+              <h1 class="dance__heading">Dance</h1>
+              <p class="dance__para">
+                My youth was filled with dance classes, recitals and
+                competitions. It was my first love and passion and I sought to
+                try every dance genre and style from ballet, breakdancing, tap,
+                jazz to disco. After attending full time dance school, I focused
+                my efforts on the contemporary style and was able to perform as
+                a professional in numerous shows and at events. I also
+                consistently taught and mentored both children and adults with a
+                variety of schools and clubs. Although my career came to end, my
+                joy of dance continues.
+              </p>
+              <h2 class="dance__paraOfferings">Dance Offerings</h2>
+              <p class="dance__para">
+                Private 1:1 Sessions (Face to Face or via Zoom) <br />
+                <br />
+                Private Groups (Hens, Birthdays, Parties, regular sessions or
+                one offs).
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="danceStyles">
+      <div class="container-fluid px-0">
+        <div class="row mx-0">
+          <div class="danceStyles">
+            <div class="danceStyles__text">
+              <h4 class="danceStyles__paraHeading">Contemporary</h4>
+              <p class="danceStyles__para">
+                Contemporary is an artistic and expressive combination of ballet
+                techniques, floor work, agility and free ranging movement.
+              </p>
+              <h4 class="danceStyles__paraHeading">Jazz</h4>
+              <p class="danceStyles__para">
+                Jazz is a combination of dance styles that come from the musical
+                theatre arts. Jazz is often used in musical theatre, commercials
+                and music video clips. Jazz takes technique from Classical
+                Ballet, and uses isolation and strength to emphasize the
+                movement.
+              </p>
+              <h4 class="danceStyles__paraHeading">Broadway</h4>
+              <p class="danceStyles__para">
+                Broadway dance can be defined as the incorporation of ballet,
+                jazz and modern dance styles with theater and singing. The use
+                of theater props such as canes, top hats and gloves is also very
+                popular in Broadway productions, allowing once again a variety
+                of movements previously unexplored in theater or dance
+                productions.
+              </p>
+              <h4 class="danceStyles__paraHeading">Funk</h4>
+              <p class="danceStyles__para">
+                Funk dancing is the perfect fusion of styles, incorporating jazz
+                roots into a melting pot of hip hop, break, popping and locking,
+                along with other fashionable dance genre. This beginner funk
+                class works to increase fitness, strength and flexibility
+                through a range of easy exercises.
+              </p>
+              <h4 class="danceStyles__paraHeading">Dance Fitness</h4>
+              <p class="danceStyles__para">
+                Instructors plan easy-to-follow choreography that keeps
+                participants moving in an effort to raise their heart rates.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Socials -->
+    <section id="socialMedia">
+      <div class="container-fluid px-0">
+        <div class="row mx-0">
+          <div class="socials">
+            <h1 class="socials__heading">Let's connect on social media</h1>
+            <a
+              class="socials__para"
+              href="https://www.instagram.com/hayleydanceandyoga/?hl=en"
+              target="_blank"
+            >
+              <p>@hayleydanceandyoga</p>
+            </a>
+            <div class="socials__flex">
+              <a href="/"
+                ><img
+                  class="socials__image"
+                  src="images/dance/dance-backbend.jpg"
+                  alt="A person doing a dance pose, bending over backwards"
+              /></a>
+              <a href="/"
+                ><img
+                  class="socials__image"
+                  src="images/dance/dance-group.jpg"
+                  alt="A person doing a dance pose, bending over backwards"
+              /></a>
+              <a href="/"
+                ><img
+                  class="socials__image"
+                  src="images/dance/dance-pose.jpg"
+                  alt="A person doing a dance pose, bending over backwards"
+              /></a>
+              <a href="/"
+                ><img
+                  class="socials__image"
+                  src="images/dance/dance-group2.jpg"
+                  alt="A person doing a dance pose, bending over backwards"
+              /></a>
+              <a href="/"
+                ><img
+                  class="socials__image"
+                  src="images/dance/dance-forward-fold.JPG"
+                  alt="A person doing a dance pose, bending over backwards"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+      <div class="container-fluid px-0">
+        <div class="row mx-0">
+          <div class="footer">
+            <div class="footer__text">
+              <a class="footer__logo" href="/"
+                ><img
+                  src="images/logo2.png"
+                  alt="Hayley's logo; a triangle with a small circle to the left"
+              /></a>
+              <h1 class="footer__heading">Contact</h1>
+              <hr class="footer__line" />
+              <div class="footer__socials">
+                <a
+                  href="https://www.facebook.com/profile.php?id=100012157428974"
+                  target="_blank"
+                  class="footer__socials-button fa fa-facebook fa-2x"
+                ></a>
+                <a
+                  href="https://www.instagram.com/hayleydanceandyoga/?hl=en"
+                  target="_blank"
+                  class="footer__socials-button fa fa-instagram fa-2x"
+                ></a>
+                <a
+                  href="mailto:Hayleydanceandyoga@gmail.com"
+                  target="_blank"
+                  class="footer__socials-button fa fa-envelope fa-2x"
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap Jquery, Popper.js & JavaScript scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- JavaScript scripts -->
+    <script src="javaScript/javaScript.js" charset="utf-8"></script>
+  </body>
+</html>

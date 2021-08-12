@@ -1,0 +1,83 @@
+@use '../abstracts'as *;
+
+.yoga {
+    background-color: $white;
+    display: flex;
+
+    @media screen and (max-width: 768px) {
+        padding: 0px;
+    }
+
+    @media screen and (max-width: 450px) {
+        padding: 0px;
+        flex-wrap: wrap;
+    }
+
+    &__text {
+        margin: auto;
+        width: 80%;
+        padding: 3em 3em 0px 3em;
+        align-items: center;
+        text-align: center;
+
+        @media screen and (max-width: 560px) {
+            width: 90%;
+            padding: 1em;
+        }
+    }
+
+    &__heading {
+        @include font-satisfy;
+        font-size: 60px;
+        margin-bottom: 60px;
+        margin-top: 20px;
+
+        @media only screen and (max-width: 450px) {
+            font-size: 40px;
+            margin-bottom: 20px;
+            padding-top: 15px;
+        }
+    }
+
+    &__paraOfferings {
+        @include font-raleway;
+        margin: 30px 0px;
+
+        @media only screen and (max-width: 450px) {
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+    }
+
+    &__paraHeading {
+        @include font-raleway;
+        text-transform: uppercase;
+
+        @media only screen and (max-width: 450px) {
+            font-size: 20px;
+        }
+    }
+
+    &__para {
+        @include font-raleway;
+        font-size: 22px;
+
+        @media only screen and (max-width: 450px) {
+            font-size: 15px;
+            line-height: normal;
+        }
+    }
+
+    &__image {
+
+        @media only screen and (max-width: 450px) {
+            width: 100%;
+            height: auto;
+        }
+
+        @media only screen and (max-width: 768px) {
+            width: 100%;
+            height: auto;
+        }
+    }
+}

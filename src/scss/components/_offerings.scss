@@ -30,7 +30,7 @@
         display: grid;
         grid-column-gap: 150px;
         align-items: center;
-        margin: 50px 155px 155px;
+        margin: 50px 155px;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
 
@@ -68,8 +68,23 @@
             font-size: 20px;
             padding: 8px 15px;
             margin: 0px 0px 50px 0px;
-
-
         }
+    }
+
+    &__message {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: $beige;
+        margin-bottom: 50px;
+
+    }
+
+    &__message-button {
+        @include font-raleway;
+        font-size: 30px;
+        border: none;
+        background: none;
+        padding: 12px;
     }
 }

@@ -1,0 +1,1 @@
+{"version":3,"sources":["javaScript/button.js"],"names":[],"mappings":"AAAA;AACA;AACA","file":"button.a5710731.js","sourceRoot":"..\\src","sourcesContent":["// function showSent() {\r\n//   document.getElementById(\"sent\").innerHTML.style.display = \"block\";\r\n// }\r\n"]}

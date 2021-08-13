@@ -1,0 +1,86 @@
+@use '../abstracts'as *;
+
+.contactForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $olive;
+    background-color: $beige;
+
+    @media only screen and (max-width: 450px) {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    &__heading {
+        @include font-satisfy;
+        color: $olive;
+        font-size: 36px;
+        margin: 0px 40px;
+
+        @media only screen and (max-width: 450px) {
+            text-align: center;
+        }
+    }
+
+    &__column {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin: 50px 0px;
+    }
+
+    &__label {
+        float: right;
+        font-size: 20px;
+
+        @media only screen and (max-width: 450px) {
+            font-size: 16px;
+        }
+    }
+
+    &__input {
+        width: 20em;
+        border-radius: 8px;
+        border: 1px solid $grey;
+    }
+
+    &__textarea {
+        width: 20em;
+        height: 10em;
+        border-radius: 8px;
+        border: 1px solid $grey;
+    }
+
+    &__button {
+        @include font-satisfy;
+        font-size: 26px;
+        color: $white;
+        background-color: $olive;
+        padding: 10px 25px;
+        margin-top: 20px;
+        margin-left: 10px;
+        border: none;
+        border-radius: 8px;
+        float: right;
+
+        @media only screen and (max-width: 450px) {
+            font-size: 20px;
+            padding: 8px 15px;
+            float: none;
+        }
+    }
+
+    &__image {
+        width: 200px;
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 60px;
+    }
+}
+
+#reset {
+    background-color: $beige;
+    border: 1px solid $grey;
+    color: $grey;
+}

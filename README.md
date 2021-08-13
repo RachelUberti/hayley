@@ -14,3 +14,5 @@ MDN Web docs, "Resources for developers, by developers", 03Aug2021, https://deve
 Colour palettes https://colorhunt.co/
 Google fonts https://fonts.google.com/
 Colour information https://www.htmlcsscolor.com/
+Grid Gallery // https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/
+Hover dropdown https://www.w3schools.com/howto/howto_css_dropdown.asp

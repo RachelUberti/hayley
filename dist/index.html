@@ -1,173 +1,187 @@
 <!DOCTYPE html>
 <html lang="en-AU" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hayley Uberti</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Hayley Uberti</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-  <!-- bootstrap -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- SCSS -->
+    <link rel="stylesheet" href="/main.77bb5cfd.css">
 
-  <!-- SCSS -->
-  <link rel="stylesheet" href="/main.77bb5cfd.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Raleway:ital,wght@0,200;0,300;0,400;0,700;1,200;1,300;1,400;1,700&family=Satisfy&display=swap" rel="stylesheet">
 
-  <!-- Google fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Raleway:ital,wght@0,200;0,300;0,400;0,700;1,200;1,300;1,400;1,700&family=Satisfy&display=swap" rel="stylesheet">
+    <!-- Font awesome -->
+    <script src="https://use.fontawesome.com/8eb409c3d6.js"></script>
+    <script src="https://kit.fontawesome.com/94a21f29c7.js" crossorigin="anonymous"></script>
 
-  <!-- Font awesome -->
-  <script src="https://use.fontawesome.com/8eb409c3d6.js"></script>
-  <script src="https://kit.fontawesome.com/94a21f29c7.js" crossorigin="anonymous"></script>
+    <!-- Favicon link -->
+    <link rel="icon" type="image/png" href="/favicon-32x32.7fea8772.png">
+  <script src="/main.77bb5cfd.js"></script></head>
 
-  <!-- Favicon link -->
-  <link rel="icon" type="image/png" href="/favicon-32x32.7fea8772.png">
-<script src="/main.77bb5cfd.js"></script></head>
+  <body>
+    <!-- Nav bar  -->
+    <header>
+      <nav class="autohide navbar navbar-expand-md">
+        <a class="navbar__logo" href="/"><img src="/logo.6023b87e.png" alt="The logo; a triangle with a small circle to the left"></a>
 
-<body>
-  <!-- Nav bar  -->
-  <header>
-    <nav class="autohide navbar navbar-expand-md">
+        <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <a class="navbar__logo" href="/"><img src="/logo.6023b87e.png" alt="The logo; a triangle with a small circle to the left"></a>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+          <ul class="navbar-nav mr-auto mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#about"><button class="navbar__button">About</button></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/retreats.html"><button class="navbar__button">Retreats</button></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#offeringsSection"><button class="navbar__button dropbtn">Offerings</button></a>
+              <div class="dropdown-content">
+                <a class="dropdown-links" href="/yoga.html">Yoga</a>
+                <a class="dropdown-links" href="/dance.html">Dance</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact"><button class="navbar__button">Connect</button></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-      <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarToggler">
-        <ul class="navbar-nav mr-auto mt-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="#about"><button class="navbar__button">About</button></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/retreats.html"><button class="navbar__button">Retreats</button></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#offeringsSection"><button class="navbar__button">Offerings</button></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact"><button class="navbar__button">Connect</button></a>
-          </li>
-        </ul>
+      <!-- Hero image -->
+      <div>
+        <picture>
+          <source media="(max-width:400px)" srcset="/hero-image-cropped.4035f989.JPG">
+          <source srcset="/hero-image.1c6b6e1b.JPG">
+          <img class="hero-image" src="/hero-image.1c6b6e1b.JPG" alt="A person dancing contemporary style, legs apart and bending over">
+        </picture>
       </div>
-    </nav>
+    </header>
 
-    <!-- Hero image -->
-    <div>
-      <picture>
-        <source media="(max-width:400px)" srcset="/hero-image-cropped.4035f989.JPG">
-        <source srcset="/hero-image.1c6b6e1b.JPG">
-        <img class="hero-image" src="/hero-image.1c6b6e1b.JPG" alt="A person dancing contemporary style, legs apart and bending over">
-      </picture>
-    </div>
-  </header>
-
-  <!-- About -->
-  <section id="about">
-    <div class="container-fluid px-0">
-      <div class="row mx-0">
-        <div class="about">
-          <div class="about__text">
-            <h1 class="about__heading">About</h1>
-            <p class="about__para">
-              <span class="about__paraHeading">Hello, my name is Hayley Uberti.</span>
-              I am a skilful and a wholehearted dance and yoga teacher with a
-              background in performance. As a professional dancer with two
-              decades of dance training and teaching, I already had a keen
-              interest in how the body moved and ways to keep fit and healthy
-              but unfortuntely with so much demand on the body, my dancing
-              career came to a halt from injury eight years ago. Turning to
-              yoga for my own healing, it not only benefited my physical body
-              but also greatly supported my journey emotionally.
-            </p>
-            <p class="about__para">
-              This discovery of yoga awakened a deep spark to learn more about
-              the ancient practice, rich history and powerful tools which
-              eventually led me to complete my Hatha Yoga teacher training in
-              India where I was privileged to receive private tuition and
-              mentoring from a wise, traditional and accomplished yoga master,
-              giving me the confidence and knowledge to open my own
-              bespoke studio in Bath, England and running
-              <span><a href="/retreats.html"><button class="about__retreats">Retreats</button></a>
-              </span> around the world.
-              I have been teaching passionately ever since and continue my dedicated daily self-practice
-              and professional skills development.
-            </p>
+    <!-- About -->
+    <section id="about">
+      <div class="container-fluid px-0">
+        <div class="row mx-0">
+          <div class="about">
+            <div class="about__text">
+              <h1 class="about__heading">About</h1>
+              <p class="about__para">
+                <span class="about__paraHeading">Hello, my name is Hayley Uberti.</span>
+                I am a skilful and a wholehearted dance and yoga teacher with a
+                background in performance. As a professional dancer with two
+                decades of dance training and teaching, I already had a keen
+                interest in how the body moved and ways to keep fit and healthy
+                but unfortuntely with so much demand on the body, my dancing
+                career came to a halt from injury eight years ago. Turning to
+                yoga for my own healing, it not only benefited my physical body
+                but also greatly supported my journey emotionally.
+              </p>
+              <p class="about__para">
+                This discovery of yoga awakened a deep spark to learn more about
+                the ancient practice, rich history and powerful tools which
+                eventually led me to complete my Hatha Yoga teacher training in
+                India where I was privileged to receive private tuition and
+                mentoring from a wise, traditional and accomplished yoga master,
+                giving me the confidence and knowledge to open my own bespoke
+                studio in Bath, England and running
+                <span><a href="/retreats.html"><button class="about__retreats">Retreats</button></a>
+                </span>
+                around the world. I have been teaching passionately ever since
+                and continue my dedicated daily self-practice and professional
+                skills development.
+              </p>
+            </div>
+            <a href="/"><img class="about__image" src="/hayley.8e45ec98.jpg" alt="A person sitting crossed-legged on a yoga mat, smiling at the camera"></a>
           </div>
-          <a href="/"><img class="about__image" src="/hayley.8e45ec98.jpg" alt="A person sitting crossed-legged on a yoga mat, smiling at the camera"></a>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Offerings -->
-  <section id="offeringsSection">
-    <div class="offerings">
-      <h1 class="offerings__heading">Offerings</h1>
-      <div class="offerings__grid">
-        <div class="offerings__grid-item">
-          <a href="/"><img class="offerings__image" src="/yoga.5d297478.JPG" alt="A person doing a yoga pose, legs crossed on the floor and holding hands together in prayer position front of head"></a>
-          <h2>Yoga</h2>
-          <p class="offerings__grid-para">
-            I offer yoga classes to all ages, levels and abilities. Range of styles and practices.
-            Classes can be tailored and blended as needed.</p>
-          <p class="offerings__grid-para">
-            Private 1:1 Sessions
-          </p>
-          <p class="offerings__grid-para">
-            Private Groups </p>
-            <a href="/yoga.html"><button class="offerings__grid-button">Find out more</button></a>        
+    <!-- Offerings -->
+    <section id="offeringsSection">
+      <div class="offerings">
+        <h1 class="offerings__heading">Offerings</h1>
+        <div class="offerings__grid">
+          <div class="offerings__grid-item">
+            <a href="/"><img class="offerings__image" src="/yoga.5d297478.JPG" alt="A person doing a yoga pose, legs crossed on the floor and holding hands together in prayer position front of head"></a>
+            <h2>Yoga</h2>
+            <p class="offerings__grid-para">
+              I offer yoga classes to all ages, levels and abilities. Range of
+              styles and practices. Classes can be tailored and blended as
+              needed.
+            </p>
+            <p class="offerings__grid-para">Private 1:1 Sessions</p>
+            <p class="offerings__grid-para">Private Groups</p>
+            <a href="/yoga.html"><button class="offerings__grid-button">Find out more</button></a>
           </div>
-        <div class="offerings__grid-item">
-          <a href="/"><img class="offerings__image" src="/dance.d72d3af5.jpg" alt="Top half of a person, of their back, with hands together in prayer but arms are straight up to towards the sky"></a>
-          <h2>Dance</h2>
-          <p class="offerings__grid-para">
-            I offer dance classes, open to all ages and abilities. No prior dance experience needed or partner required.
-            Classes can be tailored at your request.</p>
-          <p class="offerings__grid-para">
-            Private 1:1 Sessions
-          </p>
-          <p class="offerings__grid-para">
-            Private Groups </p>
-          <a href="/dance.html"><button class="offerings__grid-button">Find out more</button></a>
+          <div class="offerings__grid-item">
+            <a href="/"><img class="offerings__image" src="/dance.d72d3af5.jpg" alt="Top half of a person, of their back, with hands together in prayer but arms are straight up to towards the sky"></a>
+            <h2>Dance</h2>
+            <p class="offerings__grid-para">
+              I offer dance classes, open to all ages and abilities. No prior
+              dance experience needed or partner required. Classes can be
+              tailored at your request.
+            </p>
+            <p class="offerings__grid-para">Private 1:1 Sessions</p>
+            <p class="offerings__grid-para">Private Groups</p>
+            <a href="/dance.html"><button class="offerings__grid-button">Find out more</button></a>
+          </div>
+        </div>
+        <div class="offerings__message">
+          <a href="/contact.html"><button class="offerings__message-button">
+              Click here to submit an enquiry or connect below
+              <i class="fas fa-feather-alt"></i></button></a>
         </div>
       </div>
-  </div></section>
+    </section>
 
-  <!-- Footer -->
-  <footer id="contact">
-    <div class="container-fluid px-0">
-      <div class="row mx-0">
-        <div class="footer">
-          <div class="footer__text">
-            <a class="footer__logo" href="/"><img src="/logo2.3cb6a286.png" alt="The logo; a triangle with a small circle to the left"></a>
-            <h1 class="footer__heading">Connect</h1>
-            <hr class="footer__line">
-            <div class="footer__socials">
-              <a href="https://www.facebook.com/profile.php?id=100012157428974" target="_blank" class="footer__socials-button fa fa-facebook fa-2x"></a>
-              <a href="https://www.instagram.com/hayleydanceandyoga/?hl=en" target="_blank" class="footer__socials-button fa fa-instagram fa-2x"></a>
-              <a href="mailto:Hayleydanceandyoga@gmail.com" target="_blank" class="footer__socials-button fa fa-envelope fa-2x"></a>
+    <!-- Footer -->
+    <footer id="contact">
+      <div class="container-fluid px-0">
+        <div class="row mx-0">
+          <div class="footer">
+            <div class="footer__text">
+              <a class="footer__logo" href="/"><img src="/logo2.3cb6a286.png" alt="The logo; a triangle with a small circle to the left"></a>
+              <h1 class="footer__heading">Connect</h1>
+              <hr class="footer__line">
+              <div class="footer__socials">
+                <a href="https://www.facebook.com/profile.php?id=100012157428974" target="_blank" class="footer__socials-button fa fa-facebook fa-2x"></a>
+                <a href="https://www.instagram.com/hayleydanceandyoga/?hl=en" target="_blank" class="footer__socials-button fa fa-instagram fa-2x"></a>
+                <a href="mailto:Hayleydanceandyoga@gmail.com" target="_blank" class="footer__socials-button fa fa-envelope fa-2x"></a>
+              </div>
+              <div class="footer__links">
+                <a href="/retreats.html"><button class="footer__link-item">Homepage</button></a>
+                <a href="/retreats.html"><button class="footer__link-item">About</button></a>
+                <a href="/retreats.html"><button class="footer__link-item">Offerings</button></a>
+                <a href="/retreats.html"><button class="footer__link-item">Connect</button></a>
+              </div>
+              <div class="footer__links">
+                <a href="/retreats.html"><button class="footer__link-item">Yoga page</button></a>
+                <a href="/retreats.html"><button class="footer__link-item">Dance page</button></a>
+                <a href="/retreats.html"><button class="footer__link-item">Retreats page</button></a>
+                <a href="/retreats.html"><button class="footer__link-item">Contact page</button></a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </footer>
 
-  <!-- Bootstrap Jquery, Popper.js & JavaScript scripts -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-  </script>
+    <!-- Bootstrap Jquery, Popper.js & JavaScript scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-  <!-- JavaScript scripts -->
-  <script src="/javaScript.c3797f0c.js" charset="utf-8"></script>
-
-</body>
-
+    <!-- JavaScript scripts -->
+    <script src="/javaScript.c3797f0c.js" charset="utf-8"></script>
+  </body>
 </html>

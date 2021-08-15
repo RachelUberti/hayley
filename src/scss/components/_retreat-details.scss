@@ -111,4 +111,10 @@
 
         }
     }
+
+    &__sentMsg {
+        color: $beige;
+        text-align: right;
+        display: none;
+    }
 }

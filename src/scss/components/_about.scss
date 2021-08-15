@@ -95,4 +95,16 @@
             margin-top: 15px;
         }
     }
+
+    &__referencesHeading {
+        @include font-satisfy;
+        text-align: center;
+        display: block;
+    }
+
+    &__references {
+        @include font-raleway;
+        font-size: 12px;
+        line-height: normal;
+    }
 }

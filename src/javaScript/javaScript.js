@@ -21,3 +21,13 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
+
+// Retreat Form: Sent message after requesting a brochure
+
+document.getElementById("retreatFormRequestBtn").onclick = function () {
+  sent();
+};
+
+function sent() {
+  document.getElementById("retreatFormSentMsg").style.display = "block";
+}

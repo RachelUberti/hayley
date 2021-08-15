@@ -43,10 +43,10 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/yoga.html"><button class="navbar__button retreatsNav">Yoga</button></a>
-          </li> 
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="/dance.html"><button class="navbar__button retreatsNav">Dance</button></a>
-          </li> 
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="#contact"><button class="navbar__button retreatsNav">Connect</button></a>
           </li>
@@ -65,7 +65,7 @@
   </header>
 
   <!-- About -->
-  <section id="about">
+  <section id="aboutRetreats">
     <div class="container-fluid px-0">
       <div class="row mx-0">
         <div class="about">
@@ -89,7 +89,7 @@
   </section>
 
   <!-- Retreats -->
-  <section id="reatreatSection">
+  <section id="retreatSection">
     <div class="retreat">
       <a href="/"><img class="retreat__image" src="/retreat-poster.f0969dd4.png" alt="Strawberry yoghurt with blackberries on top and person in a yoga pose"></a>
       <h2 class="retreat__heading">Dates</h2>
@@ -122,9 +122,9 @@
         <li>Ferry terminal pick up and drop off</li>
       </ul>
       <br>
-      <div class="retreatForm">
+      <div id="retreatForm" class="retreatForm">
 
-        <form class="retreatForm__column" action="mailto:rachel.uberti@gmail.com" method="post" enctype="text/plain">
+        <form class="retreatForm__column" action="mailto:hayleydanceandyoga@gmail.com" method="post" enctype="text/plain">
           <h3 class="retreatForm__heading">Want more information?</h3>
           <p>
             <label class="retreatForm__label" for="firstName">First Name:
@@ -139,8 +139,9 @@
               <input class="retreatForm__input" type="text" name="mail"></label><br>
           </p>
           <p>
-            <input class="retreatForm__button" type="reset" value="Request a brochure">
+            <input id="retreatFormRequestBtn" class="retreatForm__button" type="reset" value="Request a brochure">
           </p>
+          <p id="retreatFormSentMsg" class="retreatForm__sentMsg">Sent! Thank you x</p>
         </form>
       </div>
       <div class="retreat__poster-jumping">
@@ -164,17 +165,17 @@
               <a href="mailto:Hayleydanceandyoga@gmail.com" target="_blank" class="footer__socials-button fa fa-envelope fa-2x"></a>
             </div>
             <div class="footer__links">
-              <a href="/retreats.html"><button class="footer__link-item">Homepage</button></a>
-              <a href="/retreats.html"><button class="footer__link-item">About</button></a>
-              <a href="/retreats.html"><button class="footer__link-item">Offerings</button></a>
-              <a href="/retreats.html"><button class="footer__link-item">Connect</button></a>
-  
+              <a href="/index.html"><button class="footer__link-item">Homepage</button></a>
+              <a href="#aboutRetreats"><button class="footer__link-item">About</button></a>
+              <a href="#retreatSection"><button class="footer__link-item">Next Retreat</button></a>
+              <a href="#retreatForm"><button class="footer__link-item">Connect</button></a>
+
             </div>
             <div class="footer__links">
-              <a href="/retreats.html"><button class="footer__link-item">Yoga page</button></a>
-              <a href="/retreats.html"><button class="footer__link-item">Dance page</button></a>
+              <a href="/yoga.html"><button class="footer__link-item">Yoga page</button></a>
+              <a href="/dance.html"><button class="footer__link-item">Dance page</button></a>
               <a href="/retreats.html"><button class="footer__link-item">Retreats page</button></a>
-              <a href="/retreats.html"><button class="footer__link-item">Contact page</button></a>
+              <a href="/contact.html"><button class="footer__link-item">Contact page</button></a>
             </div>
           </div>
         </div>
@@ -192,6 +193,6 @@
 
   <!-- JavaScript scripts -->
   <script src="/javaScript.c3797f0c.js" charset="utf-8"></script>
- </body>
+</body>
 
 </html>

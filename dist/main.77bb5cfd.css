@@ -189,6 +189,15 @@ html {
   font-size: 20px;
 }
 
+.extraNav {
+  display: none;
+}
+@media only screen and (max-width: 450px) {
+  .extraNav {
+    display: block;
+  }
+}
+
 .hero-image {
   width: 100%;
 }
@@ -313,6 +322,30 @@ html {
     margin-bottom: 15px;
     margin-top: 15px;
   }
+}
+.about__referencesHeading {
+  font-family: "Satisfy", "cursive";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 34px;
+  color: #403F48;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-align: center;
+  display: block;
+}
+.about__references {
+  font-family: "raleway", "Open Sans", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 35px;
+  color: #403F48;
+  text-align: center;
+  font-size: 12px;
+  line-height: normal;
 }
 
 .offerings {
@@ -648,6 +681,11 @@ html {
     padding: 8px 15px;
     float: none;
   }
+}
+.retreatForm__sentMsg {
+  color: #E3D9CA;
+  text-align: right;
+  display: none;
 }
 
 .yoga {
